@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pagina web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="funciones.js"></script>
+</head>
+<body>
+    <!-- navegador de la pagina -->
+  <header>
+    <div class="logo">Puce</div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Horarios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- fin del navegador  de la pagina -->
+
+<!-- Seccion principal de la pagina -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1><span class="">Bienvenido a mi pagina</span></h1>
+      <p>welcome a Desarrollo web</p>
+      <h1>Ingrese su nombre y recibe un saludo</h1>
+      <div class="formulario">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Tu nombre">
+          <button type="button" onclick="Saludar()">Saludar</button>
+      </div>
+      <div>
+          <span id="spaResultado">Mi nombre es:</span>
+      </div>
+    </div>
+  </section>
+ 
+
+  <section class="seccion-funcional">
+    <h2><span class="">Puce</span> 2025</h2>
+    <p>@todos los derechos resrvados Kevin Tabango 2025.</p>
+    
+  </section>
+</body>
+</html>

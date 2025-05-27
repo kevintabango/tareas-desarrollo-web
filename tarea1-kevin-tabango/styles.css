@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #0a0f1c; 
+    color: #e0eaff; 
+  }
+  /*aplicamos estilo a la barra de navegacion*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0d1324; 
+  }
+  /*seccion para el logo */
+  .logo {
+    color: #1e90ff; 
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #e0eaff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #1e90ff;
+  }
+  
+  .hero {
+  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(10, 15, 28, 0.7); 
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  .hero-content p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #d0dfff;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0066cc;
+  }
+  
+  .seccion-funcional {
+    padding: 60px 50px;
+    background-color: #111933;
+    text-align: center;
+  }
+  
+  .seccion-funcional h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1e90ff;
+  }
+  
+  .seccion-funcional p {
+    margin-bottom: 40px;
+    color: #ccd6f6;
+  }
+  
+  
+  
+  
