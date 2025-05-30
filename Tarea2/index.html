@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title: agregamos un titulo al documento llamado FORMULARIO COMPRAS  -->
+    <title>Formulario Compras</title>
+  </head>
+  <body>
+    <!-- etiqueta h1: nos ayuda a crear un encabezado  -->
+    <h1>Formulario</h1>
+
+    <!-- etiqueta hr: agrega una linea de separacion  -->
+    <hr />
+
+    <form method="" action="">
+      <!--etiqueta nav crear enlances de  navegacion -->
+      <nav>
+        <!-- etiqueta ul: nos ayuda a crear una lista no ordenada  -->
+
+        <ul>
+          <!-- etiqueta li: nos ayuda a crear un item dentro de la lista  -->
+          <!-- etiqueta a: nos ayuda a crear un enlace  -->
+          <!-- href: nos ayuda a enlazar a una seccion dentro del mismo documento  -->
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#acerca de">Acerca de</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+          <li><a href="#comentarios">Comentarios</a></li>
+        </ul>
+      </nav>
+      <!-- seccion DATOS DEL CLIENTE-->
+      <!-- inicia contenedor que  centra la seccion datos del cliente-->
+      <div class="center">
+        <h3>DATOS DEL CLIENTE</h3>
+        <!--contenedor div para el campo nombre  -->
+        <div>
+          <!-- etiqueta label: nos ayuda a crear una etiqueta para el campo de texto  -->
+          <label for="nombre">Nombre:</label>
+          <!-- etiqueta INPUT  tipo text, para ingresar el nombre del cliente  -->
+          <input type="text" id="nombre" name="nombre" required />
+          <!-- contenedor div para el campo apellido  -->
+          <div>
+            <!-- etiqueta label: nos ayuda a crear una etiqueta para el campo de texto  -->
+            <label for="apellidos">Apellidos:</label>
+            <!-- utilizamos un INPUT tipo text, para ingresar el apellido del cliente  -->
+            <input type="text" id="apellidos" name="apellidos" required />
+          </div>
+          <!-- finaliza contenedor que  centra la seccion datos del cliente-->
+        </div>
+
+        <!-- seccion DATOS DEL PRODUCTO -->
+        <!-- inicia contenedor que  centra la seccion datos del producto-->
+        <div>
+          <h3>DATOS DEL PRODUCTO</h3>
+          <!-- contenedor div para el campo codigo  -->
+          <div>
+            <!-- etiqueta label: nos ayuda a crear una etiqueta para el campo de texto  -->
+            <label for="">Código:</label>
+            <!-- utilizamos un INPUT tipo text, para ingresar el codigo del producto -->
+            <input type="number" id="" name="" required />
+          </div>
+          <!-- utilizamos un INPUT tipo text ,  para ingresar una pequeña descripcion del producto -->
+          <label for="">Descripción:</label>
+          <textarea id="descripcion"  name=""  rows="4"  cols="50"placeholder="tu descripcion..."></textarea>
+          <!-- finaliza contenedor que  centra la seccion datos del producto-->
+        </div>
+        <!-- contenedor div para el campo precio  -->
+        <div>
+          <!-- etiqueta label: nos ayuda a crear una etiqueta para el campo de texto  -->
+          <label for="">Precio:</label>
+          <!-- utilizamos un INPUT tipo number,  para ingresar el precio  del producto -->
+          <input type="number" id="" name="" required />
+        </div>
+        <!-- seccion para elegir la categoria a la que pertenece el  producto -->
+        <div><label for="tipo_producto">Tipo:</label></div>
+
+        <div>
+          <!-- etiqueta SELECT: nos ayuda a tener un menu de opciones  -->
+          <!-- option: nos ayuda a representar un item o una opcion dentro de la etiqueta select -->
+          <select id="" name="tipo_producto" required>
+            <!---option: nos ayuda a representar un item o una opcion dentro de la etiqueta select -->
+            <option value="">Básico</option>
+            <option value="">Licores</option>
+            <option value="">Educación</option>
+            <option value="">Otros</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Cantidad -->
+      <div>
+        <h3>CANTIDAD</h3>
+        <!-- utilizamos un INPUT , tipo number, para ingresar la  cantidad que desee llevar de productos -->
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="" required />
+      </div>
+
+      <fieldset>
+      
+        <!--seleccion multiple con checkbox-->
+        <legend>Intereses:</legend>
+        <input type="checkbox" id="musica" name="" value="" />
+        <label for="musica">Música</label>
+
+        <input type="checkbox"id="deportes"name="" value=""/>
+        <label for="deportes">Deportes</label>
+
+        <input type="checkbox" id="viajes" name="" value="" />
+        <label for="viajes">Viajes</label>
+      </fieldset>
+      <div>
+        <!-- Área de texto -->
+        <label for="comentarios">Comentarios:</label><br />
+        <!-- utilizamos un TEXTAREA, para ingresar comentarios  -->
+        <textarea
+          id="comentarios"
+          name="comentarios"
+          rows="4"
+          cols="50"
+          placeholder="Escribe tus comentarios aquí..."
+        ></textarea>
+      </div>
+
+      <!-- boton: sirve para calcular el total de la compra  -->
+       <!--boton tipo sumit nos ayuda a enviar el formulario  -->
+       <div>
+        <button type="submit">Calcular Total</button>
+       </div>
+      <div>
+        <button type="button">Elimina todo</button>
+      </div>
+      <!-- boton tipo button  -->
+    
+      <div>
+        <!-- tabla: nos ayuda a crear una tabla para mostrar los datos ingresados  -->
+        <table border="2">
+          <!--tr: nos ayuda a crear una fila dentro de la tabla  -->
+          <tr>
+            <!-- th: nos ayuda a crear una celda de encabezado dentro de la tabla  -->
+            <th>Columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+          </tr>
+          <tr>
+            <!--td: nos ayuda definir una celda de datos en una tabla-->
+            <td> Fila</td>
+            <td>fila</td>
+            <td>fila</td>
+          </tr>
+          <tr>
+            <td> Fila</td>
+            <td>fila</td>
+            <td>fila</td>
+          </tr>
+        </table>
+      </div>
+      
+    </form>
+  </body>
+</html>

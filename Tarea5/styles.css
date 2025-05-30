@@ -1,0 +1,89 @@
+/* styles.css */
+/* Estilos primer formulario */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    background-color: rgb(143, 195, 202);
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007bff;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  .nota {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+
+
+
+/* Estilos para el formulario de edad */
+  #edadForm{
+    background-color: rgb(179, 241, 163);
+    padding: 30px 40px;
+    border-radius: 10px;
+   height: 100%;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #buttonedad {
+   background-color: #22c41c;
+  }
+
+
+  
+/* Estilos para el formulario de Conjetura */
+  #ConjeturaForm{
+    background-color: rgb(224, 236, 52);
+    margin-top: 50px;
+  }
+ #collazbutton{
+    background-color: #d4a60f;
+ }
+ .cuadro {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+  }
+
+  
+ 
+  
+ 
+  
+  

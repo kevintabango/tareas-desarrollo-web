@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+    <!--scripb para traer funciones js-->
+    <script src="funciones.js"></script>
+    <!--link de estilos-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--EJERCICIO NUMERO 1-->
+    <form action="">
+      <div class="justify-content-center">
+        <!-- Título de la calculadora -->
+        <h1>Calculadora de Promedios</h1>
+        <!-- Ingreso de notas -->
+        <input type="number" id="notaInput" placeholder="Ingrese una nota" />
+        <!-- Botones para agregar nota y calcular promedio -->
+        <button type="button" onclick="agregarNota()">Agregar Nota</button>
+        <button type="button" onclick="calcularPromedio(notas) ">
+          Calcular Promedio
+        </button>
+        <!--muestra de notas y resultado -->
+        <div id="notasLista"></div>
+        <span id="resultado"></span>
+      </div>
+    </form>
+
+  <!--EJRCICIO NUMERO 2-->
+    <form id="edadForm">
+      <div class="edad">
+        <!-- Título para la verificación de edad -->
+        <h1>Verificación de Edad</h1>
+        <!-- Ingreso de edad -->
+        <input type="number" id="inpEdad" placeholder="Ingresa tu edad" />
+        <!-- Botón para verificar edad -->
+        <button id="buttonedad" type="button" onclick="validarEdad()">Validar Edad</button>
+        <!-- Resultado de la verificación -->
+        <p id="resultado2"></p>
+      </div>
+    </form>
+
+ <!--EJRCICIO NUMERO 3-->
+    <form id="ConjeturaForm">
+      <div class="collaz">
+        <!-- Título del ejericio -->
+        <h1>Conjetura de Collatz</h1>
+        <!-- Ingreso de edad -->
+        <input type="number" id="numero" placeholder="Ingresa un número positivo" />
+        <!-- Botón para verificar edad -->
+        <button id="collazbutton"type="button" onclick="ejecutarCollatz()">Ejecutar</button>
+        <!-- Resultado de la verificación -->
+        <span id="resultado3"></span>
+      </div>
+    </form>
+  </body>
+</html>
+
+    
+    
+   
